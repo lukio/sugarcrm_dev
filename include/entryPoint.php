@@ -169,6 +169,7 @@ require_once('include/MVC/SugarModule.php');
 require_once('include/SugarCache/SugarCache.php');
 require('modules/Currencies/Currency.php');
 require_once('include/MVC/SugarApplication.php');
+require_once('include/utils/sugar_notify.php');
 //
 //SugarApplication::startSession();
 

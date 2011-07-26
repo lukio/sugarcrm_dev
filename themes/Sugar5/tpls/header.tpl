@@ -56,7 +56,7 @@
     {include file="_headerShortcuts.tpl" theme_template=true}
     {/if}
 </div>
-
+{$NOTIFY}
 <div id="main">
     <div id="content" {if !$AUTHENTICATED}class="noLeftColumn" {/if}>
         <table style="width:100%"><tr><td>

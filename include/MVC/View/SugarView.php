@@ -243,7 +243,7 @@ class SugarView
         $ss->assign("THEME", $theme);
         $ss->assign("THEME_IE6COMPAT", $themeObject->ie6compat ? 'true':'false');
         $ss->assign("MODULE_NAME", $this->module);
-
+        $ss->assign("NOTIFY", sugar_get_notify_list());
         // get browser title
         $ss->assign("SYSTEM_NAME", $this->getBrowserTitle());
 
